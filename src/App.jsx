@@ -9,9 +9,17 @@ function App() {
 
   return (
     <>
-      
+<header>    
+
+<div className='header-info'>
       <h1>Travel Tracker</h1>
-      
+<form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"></input>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+</div>
+</header>  
+
 
 <div className='table'> 
 <table className="table">
@@ -90,6 +98,8 @@ function App() {
   </tbody>
 </table>
 </div>
+
+
 
 
 
